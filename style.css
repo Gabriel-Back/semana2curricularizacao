@@ -27,6 +27,7 @@ header {
 
 h1{
     color: #555088;
+    text-align: center;
 }
 
 #sobreNos {
@@ -109,6 +110,213 @@ h1{
     flex: 1;
 }
 
+.doacao {
+  background-color: #e3dff2;
+  margin: 10px 10px 10px 25%;
+  padding: 40px 5px 20px 5px;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+.doacao h2 {
+  color: #555088;
+  font-size: 30px;
+  margin-bottom: 4rem;
+}
+
+.animaiss {
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.animaiss img {
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 8px 8px 8px 8px;
+  border: solid #e0dce4;
+}
+
+.animaiss h3 {
+  margin: 15px 5px;
+  font-size: 4rem;
+  color: #2e2861;
+}
+
+.carossel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 40px;
+}
+
+.animals {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.animaiss {
+  min-width: 280px;
+  flex-shrink: 0;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.carossel {
+  background-color: #5c3dad;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.carossel:hover {
+  background-color: #4b3091;
+}
+
+.descricaoAnimal {
+  color: #5c3dad;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin: 10px 10px 20px 10px;
+  text-align: left;
+}
+
+.lojinha {
+  background-color: #e3dff2;
+  margin: 10px 10px 10px 25%;
+  padding: 40px 5px 20px 5px;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+.lojinha h2 {
+  color: #555088;
+  font-size: 30px;
+  margin-bottom: 4rem;
+}
+
+.produto {
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.produto img {
+  margin-top: 20px;
+  width: auto;
+  max-width: 400px;
+  border-radius: 8px 8px 8px 8px;
+  border: solid #e0dce4;
+}
+
+.produto h3 {
+  margin: 15px 5px;
+  font-size: 4rem;
+  color: #2e2861;
+}
+
+.carossel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 40px;
+}
+
+.produtos {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.produto {
+  min-width: 280px;
+  flex-shrink: 0;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.carossel {
+  background-color: #5c3dad;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.carossel:hover {
+  background-color: #4b3091;
+}
+
+.preco {
+  color: #5c3dad;
+  font-weight: bold;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.contato {
+  background-color: #5c3dad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contato:hover {
+  background-color: #4b3091;
+}
+
+#duvidasFrequentes {
+    margin: 25px 25px 25px 25px;
+    padding: 0px 0px 15px 0px;
+    background-color: #d8d4e4;
+    border: solid, 3.5px, #e0dce4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+summary {
+    background-color: white;
+    padding-left: 30px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #555088;
+    padding: 13px 13px 13px 13px;
+}
+
+details {
+    background-color: white;
+    padding-left: 30px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #555088
+}
 
 footer {
     display:flex;
@@ -131,7 +339,6 @@ footer img {
 
 }
 
-
 .abandono {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -139,5 +346,3 @@ footer img {
     color: white;
     background-color: black;
 }
-
-
