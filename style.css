@@ -31,16 +31,23 @@ h1{
 
 #sobreNos {
     margin: 25px 25px 25px 25px;
-    background-color: gray;
+    background-color:#d8d4e4;
+    border: solid, 3.5px, #e0dce4;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border-radius: 25px 25px 25px 25px;
 }
 
+#aviso {
+    color: #2e2861;
+    font-size: 25px;
+}
+
 #eventos {
     margin: 25px 25px 25px 25px;
-    background-color: gray;
+    background-color:#d8d4e4;
+    border: solid, 3.5px, #e0dce4;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -50,12 +57,58 @@ h1{
 #voluntarios {
     margin: 25px 25px 25px 25px;
     padding: 0px 0px 15px 0px;
-    background-color: gray;
-    text-align: center;
+    background-color: #d8d4e4;
+    border: solid, 3.5px, #e0dce4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border-radius: 25px 25px 25px 25px;
 }
+
+#voluntarios h1 {
+    text-align: center;
+}
+
+#joana , #everton {
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 25px;
+    display: flex ;
+    align-items: center;
+}
+
+#joana img, #everton img {
+    margin: 15px 15px 15px 15px;
+    border-radius: 20px;
+    border: #555088 solid 3px;
+    height: auto;
+    width: auto;
+}
+
+.imgEsquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+
+.imgEsquerda img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+    border: 3px solid #555088;
+}
+
+.descricao h2, .descricao h3 {
+    margin: 5px 0;
+    text-align: center;
+    color: #555088;
+}
+
+.texto {
+    flex: 1;
+}
+
 
 footer {
     display:flex;
@@ -72,9 +125,12 @@ footer img {
 }
 
 .pix{
+    padding-top: 25px;
     text-align: center;
+    color: white;
 
 }
+
 
 .abandono {
     text-align: center;
