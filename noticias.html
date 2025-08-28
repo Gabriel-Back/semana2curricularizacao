@@ -1,133 +1,234 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="noticias.css">
-    <title>ACAPRA Brusque - Notícias e Ações</title>
+    <title>Notícias e Ações - ACAPRA Brusque</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/noticias.css">
 </head>
-<body>
 
+<body>
     <header class="cabecalho">
         <div class="container">
-            <div class="logo"><img src="assets/images/logo branca.png" alt="Logo da ACAPRA"></div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo branca.png" alt="Logo da ACAPRA">
+                </a>
+            </div>
             <nav class="navegacao">
                 <ul>
-                    <li><a href="index.html#sobreNos">Quem Somos</a></li>
-                    <li><a href="index.html#ajuda">Como Ajudar</a></li>
-                    <li><a href="https://www.instagram.com/acaprabrusquesc/">Contato</a></li>
+                    <li><a href="index.html"><i class="fas fa-home" style="margin-right: 8px;"></i>Início</a></li>
+                    <li><a href="animais.html"><i class="fas fa-users" style="margin-right: 8px;"></i>Animais para Adoção</a></li>
+                    <li><a href="noticias.html"><i class="fas fa-heart" style="margin-right: 8px;"></i>Noticias</a></li>
+                    <li><a href="https://www.instagram.com/acaprabrusquesc/"><i class="fab fa-instagram"
+                                style="margin-right: 8px;"></i>Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <section class="hero">
+        <div class="container">
+            <h1><i class="fas fa-newspaper" style="margin-right: 20px;"></i>Notícias ACAPRA</h1>
+            <p>Acompanhe nossas últimas ações, resgates e histórias de transformação na proteção animal em Brusque</p>
+        </div>
+    </section>
+
     <main>
-        <section class="secao" id="noticiaResgate">
+        <section class="secao animate-on-scroll">
             <div class="container">
-                <h2>Resgate e Primeiros Socorros</h2>
-                <div class="noticiaDetalhes">
-                    <div class="noticiaTexto">
-                        <p>Uma cachorra foi encontrada em estado deplorável, com os membros traseiros presos em cipós numa área de mata no bairro Steffen, em Brusque. Um morador local, alertado pelos latidos de dor, agiu rapidamente e acionou a Associação Brusquense de Proteção aos Animais (ACAPRA).</p>
-                        <p>A equipe da ACAPRA prontamente se deslocou ao local e, após um resgate delicado, levou a cachorra para atendimento veterinário urgente. Os exames iniciais revelaram lesões musculares graves nas patas traseiras, indicando que ela permaneceu presa por dias. Felizmente, não houve fraturas.</p>
-                        <p>Atualmente, o animal está sob os cuidados da clínica veterinária, recebendo o tratamento necessário para sua recuperação. A ACAPRA lançou uma campanha de arrecadação de fundos para custear as despesas médicas, que são significativas.</p>
-                        <p><strong>Como Ajudar:</strong> Contribuições financeiras podem ser feitas via chave Pix: <strong>03.772.257/0001-82</strong> (CNPJ da ACAPRA).</p>
+                <article class="noticia-destaque">
+                    <h2><i class="fas fa-home" style="margin-right: 15px; color: var(--warning-color);"></i>Feira de
+                        Adoção</h2>
+                    <div class="noticiaDetalhes">
+                        <div class="noticiaTexto">
+                            <p><i class="fas fa-calendar-alt"
+                                    style="margin-right: 8px; color: var(--primary-color);"></i>No último domingo, a
+                                ACAPRA realizou uma feira de adoção de pets junto à feira de artesanato no
+                                estacionamento do Centermix, ao lado da FIP I.</p>
+                            <p><i class="fas fa-clock" style="margin-right: 8px; color: var(--primary-color);"></i>O
+                                evento aconteceu das 10h às 15h, proporcionando um ambiente acolhedor e familiar para os
+                                encontros entre futuros tutores e nossos queridos animais.</p>
+                            <p>Muitos aproveitaram o domingo para encontrar um novo AUmigo para a vida, com carinho e
+                                amor de sobra. Foi emocionante ver tantas famílias se formando e tantos corações se
+                                conectando!</p>
+                            <p><strong><i class="fas fa-credit-card" style="margin-right: 8px;"></i>Como
+                                    Ajudar:</strong> Contribuições via PIX: 03.772.251/0001-82</p>
+                        </div>
+                        <div class="noticiaImagem">
+                            <img src="assets/images/Noticia03.png" alt="Feira de adoção">
+                        </div>
                     </div>
-                    <div class="noticiaImagem">
-                        <img src="assets/images/cachorro preso.png" alt="Cachorra caramelo enrolada em cipós.">
-                    </div>
-                </div>
+                </article>
             </div>
         </section>
 
-        <section class="secao" id="noticiaCaominhada">
+        <section class="secao animate-on-scroll">
             <div class="container">
-                <h2>2ª Cãominhada em Brusque</h2>
-                <div class="noticiaDetalhes">
-                    <div class="noticiaTexto">
-                        <p>A 2ª Cãominhada de Brusque reuniu mais de 150 pets e seus tutores para um evento solidário. O evento arrecadou fundos para ONGs de proteção animal e trouxe uma homenagem especial à cadela Zaara, do Corpo de Bombeiros de Brusque, que se aposentou de suas atividades de busca e resgate.</p>
-                        <p>O evento também reforçou a importância da conscientização, com destaque para a vacinação dos pets e a adoção responsável. Confira todos os detalhes e as fotos mais fofas do evento no link da nossa bio!</p>
-                        <p><strong>Como Ajudar:</strong> Contribuições financeiras podem ser feitas via chave Pix: <strong>03.772.257/0001-82</strong> (CNPJ da ACAPRA).</p>
-                    </div>
-                    <div class="noticiaImagem">
-                        <img src="assets/images/Noticia02.png" alt="Evento Cãominhada em Brusque.">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="secao" id="noticiaAdocao">
-            <div class="container">
-                <h2>Adote um Aumigo</h2>
-                <div class="noticiaDetalhes">
-                    <div class="noticiaTexto">
-                        <p>📅 No último domingo, a ACAPRA realizou uma feira de adoção de pets junto à feira de artesanato no estacionamento do Centermix, ao lado da FIP I.</p>
-                        <p>✅ O evento aconteceu das 10h às 15h.</p>
-                        <p>Muitos aproveitaram o domingo para encontrar um novo AUmigo para a vida, com carinho e amor de sobra. Fique de olho em nossas redes para as próximas feiras!</p>
-                        <p><strong>Como Ajudar:</strong> Contribuições financeiras podem ser feitas via chave Pix: <strong>03.772.257/0001-82</strong> (CNPJ da ACAPRA).</p>
-                    </div>
-                    <div class="noticiaImagem">
-                        <img src="assets/images/Noticia03.png" alt="Banner da feira de adoção.">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="secao" id="outrasNoticias">
-            <div class="container">
-                <h2>Outras Notícias e Ações da ACAPRA</h2>
+                <h2
+                    style="color: var(--primary-color); font-size: 2.5rem; text-align: center; margin-bottom: 40px; position: relative;">
+                    <i class="fas fa-newspaper" style="margin-right: 15px; color: var(--accent-color);"></i>
+                    Outras Notícias e Ações da ACAPRA
+                </h2>
                 <div class="gradeNoticias">
-                    <article class="cardNoticia">
-                        <img src="assets/images/noticiaPrimaria.png" alt="Imagem de um cachorro golden deitado.">
+                    <article class="cardNoticia animate-on-scroll">
+                        <img src="assets/images/noticiaPrimaria.png" alt="Marley - cachorro golden">
                         <div class="cardNoticiaConteudo">
-                            <h3>Precisamos de um lar para o Marley!</h3>
-                            <p>Marley passou muitas noites no frio e na chuva, tanta umidade e sujeira que acabou perdendo metade do rabo!</p>
-                            <p>Ajude! Ele está castrado, será vacinado assim que parar de tomar os remédios. Se dá bem com outros animais. De lar temporário ou adote o Marley!</p>
+                            <h3><i class="fas fa-heart"
+                                    style="margin-right: 8px; color: var(--accent-color);"></i>Precisamos de um lar para
+                                o Marley!</h3>
+                            <p>Marley passou muitas noites no frio e na chuva, tanta umidade e sujeira que acabou
+                                perdendo metade do rabo! Apesar de tudo, ele mantém seu coração cheio de amor.</p>
+                            <p><strong>Ajude!</strong> Ele está castrado, será vacinado assim que parar de tomar os
+                                remédios. Se dá bem com outros animais. Lar temporário ou adote o Marley!</p>
                         </div>
                     </article>
 
-                    <article class="cardNoticia">
-                        <img src="assets/images/noticiaSecundaria.png" alt="Imagem para campanha de doação de ração.">
+                    <article class="cardNoticia animate-on-scroll">
+                        <img src="assets/images/noticiaSecundaria.png" alt="Campanha de ração">
                         <div class="cardNoticiaConteudo">
-                            <h3>Campanha de doação de ração! 🐶🐱</h3>
-                            <p>A ACAPRA está precisando de doações de rações para este inverno!</p>
-                            <p>Cada R$10,00 equivale a 1kg de ração. CHAVE PIX: 03.772.251/0001-82</p>
+                            <h3><i class="fas fa-bowl-food"
+                                    style="margin-right: 8px; color: var(--success-color);"></i>Campanha de doação de
+                                ração! 🐶🐱</h3>
+                            <p>A ACAPRA está precisando de doações de rações para este inverno! Com o aumento do número
+                                de resgates, precisamos garantir alimentação de qualidade para todos.</p>
+                            <p><strong>Cada R$10,00 equivale a 1kg de ração.</strong><br>
+                                <i class="fas fa-credit-card" style="margin-right: 5px;"></i>CHAVE PIX:
+                                03.772.251/0001-82
+                            </p>
                         </div>
                     </article>
 
-                    <article class="cardNoticia">
-                        <img src="assets/images/noticiaTerciaria.png" alt="Imagem para rifa.">
+                    <article class="cardNoticia animate-on-scroll">
+                        <img src="assets/images/noticiaTerciaria.png" alt="Rifa solidária">
                         <div class="cardNoticiaConteudo">
-                            <h3>Rifa solidária sos ACAPRA</h3>
-                            <p>Estamos com uma rifa digital para ajudar a quitar as dívidas e continuar salvando vidas.</p>
-                            <p>Cada número custa apenas R$ 3,00, direto pela plataforma online. E você tem ONZE chances de ganhar, todos os prêmios estão muuuuito legais!</p>
+                            <h3><i class="fas fa-ticket-alt"
+                                    style="margin-right: 8px; color: var(--warning-color);"></i>Rifa Solidária SOS
+                                ACAPRA</h3>
+                            <p>Estamos com uma rifa digital para ajudar a quitar as dívidas e continuar salvando vidas.
+                                Uma iniciativa importante para manter nosso trabalho em dia.</p>
+                            <p><strong>Cada número custa apenas R$ 3,00</strong>, direto pela plataforma online. E você
+                                tem <strong>ONZE chances de ganhar</strong>, todos os prêmios estão muuuuito legais!</p>
                         </div>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section class="secaoChamadaAcao" id="ajudar">
+        <section class="secaoChamadaAcao">
             <div class="container">
-                <h2>Sua Ajuda Faz a Diferença!</h2>
-                <p>Seja um apoiador da causa animal em Brusque. Sua doação, seu tempo ou sua voz podem transformar vidas. Juntos, podemos fazer mais pelos nossos amigos de quatro patas.</p>
+                <h2><i class="fas fa-hands-helping" style="margin-right: 20px;"></i>Sua Ajuda Faz a Diferença!</h2>
+                <p>Seja um apoiador da causa animal em Brusque. Sua doação, seu tempo ou sua voz podem transformar
+                    vidas. Juntos, podemos fazer mais pelos nossos amigos de quatro patas.</p>
                 <p>
-                    <span>Lembre-se:</span>
-                    Abandonar um animal é um ato de crueldade e é punível por lei <strong>(Lei nº 9.605/98)</strong>. Ajude-nos a combater essa prática: conscientize, castre e, se não puder mais cuidar, procure ajuda e um lar responsável.
+                    <span><i class="fas fa-exclamation-triangle" style="margin-right: 8px;"></i>Lembre-se:</span>
+                    Abandonar um animal é um ato de crueldade e é punível por lei <strong>(Lei nº 9.605/98)</strong>.
+                    Ajude-nos a combater essa prática: conscientize, castre e, se não puder mais cuidar, procure ajuda e
+                    um lar responsável.
                 </p>
-                <a href="#" class="botaoAjuda">Como Posso Ajudar?</a>
+                <a href="https://www.instagram.com/acaprabrusquesc/" class="botaoAjuda" target="_blank">
+                    <i class="fab fa-instagram" style="margin-right: 10px;"></i>
+                    Como Posso Ajudar?
+                </a>
             </div>
         </section>
     </main>
 
     <footer class="rodape">
-        <a href="index.html">
-            <img src="assets/images/logo branca.png" alt="Pata de um cão em cor roxa com um coração no meio com o nome da ONG embaixo.">
-        </a>
-        <p class="rodapePix">Pix: <b>03.772.251.0001-82</b></p>
-        <a href="https://www.instagram.com/acaprabrusquesc/" target="_blank">
-            <img src="assets/images/icon instagram.png" alt="Logo do instagram branca.">
-        </a>
+        <div class="footer-content">
+            <a href="index.html">
+                <img src="assets/images/logo branca.png" alt="Logo ACAPRA">
+            </a>
+            <div class="rodapePix">
+                <i class="fas fa-credit-card" style="margin-right: 10px;"></i>
+                PIX: <strong>03.772.251.0001-82</strong>
+            </div>
+            <a href="https://www.instagram.com/acaprabrusquesc/" target="_blank">
+                <img src="assets/images/icon instagram.png" alt="Instagram ACAPRA">
+            </a>
+        </div>
     </footer>
 
+    <div style="background: rgba(0,0,0,0.8); color: white; text-align: center; padding: 15px; font-size: 0.9rem;">
+        <strong>Abandono de animais é crime!</strong><br>
+        Art. 32, da Lei Federal nº 9.605
+    </div>
+
+    <a href="https://wa.me/5547999999999" class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function (entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            if (hero) {
+                hero.style.transform = `translateY(${scrolled * 0.2}px)`;
+            }
+        });
+
+        function animateValue(obj, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                obj.innerHTML = Math.floor(progress * (end - start) + start);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.classList.remove('lazy');
+                        imageObserver.unobserve(img);
+                    }
+                });
+            });
+
+            document.querySelectorAll('img[data-src]').forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+    </script>
 </body>
+
 </html>
